@@ -1,0 +1,28 @@
+Source: ruby-pkg-config
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@alioth-lists.debian.net>
+Uploaders: HIGUCHI Daisuke (VDR dai) <dai@debian.org>
+Build-Depends: debhelper-compat (= 13),
+               gem2deb,
+               libcairo2-dev,
+               ruby-dev,
+               ruby-test-unit
+Standards-Version: 4.6.0.1
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-pkg-config.git
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-pkg-config
+Homepage: https://github.com/ruby-gnome/pkg-config
+XS-Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Rules-Requires-Root: no
+
+Package: ruby-pkg-config
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby:any,
+         ${misc:Depends}
+Multi-Arch: foreign
+Description: pkg-config implementation for Ruby
+ pkg-config can be used in your extconf.rb to properly detect necessary
+ libraries for compiling native Ruby extensions, using the pkg-config database.
+ Note that this package does not use pkg-config, only its database.

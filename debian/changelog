@@ -1,0 +1,289 @@
+ruby-pkg-config (1.4.6-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Update watch file format version to 4.
+  * Bump debhelper from old 12 to 13.
+  * Set upstream metadata fields: Bug-Submit.
+  * Update standards version to 4.6.0, no changes needed.
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * d/watch: use tags instead of releases.
+  * eliminate lintian warning: ruby-interpreter-is-deprecated.
+  * Update Standards-Version to 4.6.0.1.
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Sun, 31 Oct 2021 16:42:00 +0900
+
+ruby-pkg-config (1.4.6-1) unstable; urgency=medium
+
+  [ Jenkins ]
+  * Apply multi-arch hints. + ruby-pkg-config: Add :any qualifier
+    for ruby dependency.
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream version 1.4.5
+  * New upstream version 1.4.6
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Sat, 04 Sep 2021 21:20:59 +0900
+
+ruby-pkg-config (1.4.4-1) unstable; urgency=medium
+
+  * New upstream version 1.4.4
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Fri, 25 Sep 2020 17:13:14 +0900
+
+ruby-pkg-config (1.4.3-1) unstable; urgency=medium
+
+  [ Cédric Boutillier ]
+  * [ci skip] Update team name
+  * [ci skip] Add .gitattributes to keep unwanted files
+    out of the source package
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream version 1.4.3
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Sun, 20 Sep 2020 20:47:19 +0900
+
+ruby-pkg-config (1.4.2-1) unstable; urgency=medium
+
+  * New upstream version 1.4.2
+  * eliminate lintian warning:  mailing-list-obsolete-in-debian-infrastructure
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Fri, 14 Aug 2020 21:35:13 +0900
+
+ruby-pkg-config (1.4.1-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Repository, Repository-
+    Browse.
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream version 1.4.1
+  * Update Standards-Version to 4.5.0
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Sat, 07 Mar 2020 17:58:39 +0900
+
+ruby-pkg-config (1.4.0-1) unstable; urgency=medium
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream version 1.4.0
+  * d/salsa-ci.yml: disable salsa-ci blhc and build package any tests.
+  * Update Standards-Version to 4.4.1
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Sun, 27 Oct 2019 12:29:59 +0900
+
+ruby-pkg-config (1.3.9-1) unstable; urgency=medium
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream version 1.3.9
+  * replace ruby-gnome2 with ruby-gnome, renamed by upstream.
+  * set Rules-Requires-Root: as no
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Tue, 01 Oct 2019 23:50:40 +0900
+
+ruby-pkg-config (1.3.8-1) unstable; urgency=medium
+
+  [ Utkarsh Gupta ]
+  * Add salsa-ci.yml
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream version 1.3.8
+  * d/control: use debhelper-compat instead of d/compat
+  * d/TODO: removed, fixed in upstream/1.1.7
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Wed, 14 Aug 2019 18:36:40 +0900
+
+ruby-pkg-config (1.3.7-2) unstable; urgency=medium
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * Bump debhelper compatibility level to 12
+  * Update Standards-Version to 4.4.0
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Fri, 02 Aug 2019 21:39:23 +0900
+
+ruby-pkg-config (1.3.7-1) unstable; urgency=medium
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream version 1.3.7
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Mon, 29 Apr 2019 21:34:11 +0900
+
+ruby-pkg-config (1.3.6-1) unstable; urgency=medium
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream version 1.3.6
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Tue, 12 Mar 2019 14:28:01 +0900
+
+ruby-pkg-config (1.3.4-1) unstable; urgency=medium
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream version 1.3.4
+  * Update Standards-Version to 4.3.0
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Tue, 26 Feb 2019 11:10:31 +0900
+
+ruby-pkg-config (1.3.2-1) unstable; urgency=medium
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream version 1.3.2
+  * Update Standards-Version to 4.2.1
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Wed, 07 Nov 2018 20:29:18 +0900
+
+ruby-pkg-config (1.3.1-1) unstable; urgency=medium
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream release.
+  - Use Requires.private before Requires (Closes: #895923)
+  * d/control: add ruby-dev to B-D for test.
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Mon, 30 Apr 2018 10:59:47 +0900
+
+ruby-pkg-config (1.3.0-1) UNRELEASED; urgency=medium
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream release.
+  * eliminate lintian warning: insecure-copyright-format-uri
+  * Update Standards-Version to 4.1.4
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Sat, 14 Apr 2018 22:03:38 +0900
+
+ruby-pkg-config (1.2.9-1) unstable; urgency=medium
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream release.
+  * eliminate lintian warning: unnecessary-team-upload
+  * Move Vcs-* to salsa.debian.org
+  * Bump debhelper compatibility level to 11
+  * Update Standards-Version to 4.1.3
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Sun, 14 Jan 2018 11:44:20 +0900
+
+ruby-pkg-config (1.2.8-1) unstable; urgency=medium
+
+  [ Antonio Terceiro ]
+  * Remove myself from Uploaders:
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream release.
+  * eliminate lintian warning: unnecessary-testsuite-autopkgtest-header
+  * Bump Standards-Version to 4.1.1 (no further changes)
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Sun, 22 Oct 2017 11:25:27 +0900
+
+ruby-pkg-config (1.2.7-1) unstable; urgency=medium
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream release.
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Sat, 19 Aug 2017 21:18:39 +0900
+
+ruby-pkg-config (1.2.4-1) unstable; urgency=medium
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream release.
+  * d/p/fix_libz_bug870850.patch: dropped. applied upstream.
+  * d/p/rubygem-pkg-config-1.1.3-cflags-result-sort.patch: dropped.
+    fixed upstream.
+  * d/tests/gem2deb-test-runner-wrapper: removed, patch applied upstream.
+  * Added myself to Uploaders.
+  * Bump debhelper compatibility level to 10.
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Mon, 07 Aug 2017 22:35:41 +0900
+
+ruby-pkg-config (1.2.3-3) unstable; urgency=medium
+
+  * Team upload.
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * d/control: mark Multi-Arch as foreign
+  * d/p/fix_libz_bug870850.patch: new file.
+    Fix test failure on --libs-only-l with libz (Closes: #870850)
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Sun, 06 Aug 2017 23:17:44 +0900
+
+ruby-pkg-config (1.2.3-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * support autopkgtest (Closes: #830921)
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Wed, 19 Jul 2017 22:30:20 +0900
+
+ruby-pkg-config (1.2.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * d/watch: point to the github repository.
+  * d/control, d/copyright: aupdate Homepage field due to organization change.
+  * d/copyright
+    - remove unused file.
+    - eliminate lintian warning: empty-short-license-in-dep5-copyright
+  * d/control: add Testsuite: autopkgtest-pkg-ruby
+  * Bump Standards-Version to 4.0.0 (no further changes)
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Sat, 15 Jul 2017 12:36:07 +0900
+
+ruby-pkg-config (1.1.7-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Caitlin Matos ]
+  * d/control: spelling + grammar in description
+
+  [ Christian Hofstaedtler ]
+  * Add ruby-test-unit to Build-Depends for ruby2.2
+  * Update Vcs-Browser to cgit URL and HTTPS
+  * Bump Standards-Version to 3.9.6 (no further changes)
+
+  [ Cédric Boutillier ]
+  * Bump debhelper compatibility level to 9
+  * Remove version in the gem2deb build-dependency
+  * Use https:// in Vcs-* fields
+  * Use https:// in Vcs-* fields
+  * Bump Standards-Version to 3.9.7 (no changes needed)
+  * Run wrap-and-sort on packaging files
+
+  [ Andrew Lee (李健秋) ]
+  * Imported Upstream version 1.1.7
+
+ -- Andrew Lee (李健秋) <andrew.lee@collabora.co.uk>  Thu, 19 May 2016 05:03:25 +0800
+
+ruby-pkg-config (1.1.5-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ HIGUCHI Daisuke (VDR dai) ]
+  * New upstream release.
+  * fix FTBFS: ERROR: Test "ruby1.9.1" failed (Closes: #735862)
+    - debian/rubygem-pkg-config-1.1.3-cflags-result-sort.patch: New file.
+      pick up from upstream issues and modify for debian.
+  * debian/copyright: fix lintian warning old-fsf-address-in-copyright-file
+  * Bump standards version to 3.9.5; no further changes needed
+
+ -- HIGUCHI Daisuke (VDR dai) <dai@debian.org>  Thu, 13 Mar 2014 22:18:57 +0900
+
+ruby-pkg-config (1.1.2-1) unstable; urgency=low
+
+  * New upstream release.
+    + Fixed to build on non-Intel+Linux platforms #632323 - dropped
+      Debian-specific patch
+  * Run tests with debian/ruby-tests.rb; drop build dependency on rake
+
+ -- Antonio Terceiro <terceiro@debian.org>  Thu, 11 Aug 2011 10:24:20 -0700
+
+ruby-pkg-config (1.1.2~git20110615-2) unstable; urgency=low
+
+  * Fix debian/watch: use upstream name instead of Debian name
+  * Also look in arch-dependent pkgconfig directories (Closes: #632323)
+  * Make tests not depend on the exact order in which pkg-config outputs.
+
+ -- Antonio Terceiro <terceiro@softwarelivre.org>  Sat, 02 Jul 2011 12:55:25 -0700
+
+ruby-pkg-config (1.1.2~git20110615-1) unstable; urgency=low
+
+  * Initial release (Closes: #630659)
+
+ -- Antonio Terceiro <terceiro@softwarelivre.org>  Tue, 14 Jun 2011 09:38:47 -0700
